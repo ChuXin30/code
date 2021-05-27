@@ -3,6 +3,7 @@ package leetcode;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
 public class t692 {
     public List<String> topKFrequent(String[] words, int k) {
@@ -17,6 +18,6 @@ public class t692 {
             }
         }
         ArrayList<String> arrayList = new ArrayList<String>();
-        for(int i =  )
+        return  arrayList;
     }
 }

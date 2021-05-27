@@ -6,7 +6,9 @@ class c241_1 {
     int n;
     int ret;
 
-    public void  dfs( int[] nums , boolean[] visited , LinkedList<Integer> ll , int l  ){
+    public static void  dfs(int[] nums, boolean[] visited, LinkedList<Integer> ll, int l){
+        int n = 0;
+        int ret = 0;
         if(l == n){
             int t = 0;
             for (int i = 0 ; i < ll.size() ; i++){
@@ -30,8 +32,8 @@ class c241_1 {
 
 
      static int subsetXORSum(int[] nums) {
-        n = nums.length;
-        ret = 0;
+        int n = nums.length;
+        int ret = 0;
         boolean[] visited = new boolean[n];
         LinkedList<Integer> ll = new LinkedList<Integer>();
         dfs(nums , visited , ll , 0);
