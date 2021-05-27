@@ -23,7 +23,7 @@ public class c241_2 {
         for(int i = 1 ; i < n ; i++ ){
 
         }
-
+        return 0;
     }
     public static void main(String[] args) {
 
