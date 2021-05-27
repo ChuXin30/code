@@ -1,5 +1,7 @@
 package leetcode;
 
+import java.util.Arrays;
+
 public class t1269 {
     public int numWays(int steps, int arrLen) {
         if(arrLen == 1)return 1;
