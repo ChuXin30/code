@@ -38,6 +38,9 @@ package leetcode;
 
  */
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class t523 {
     public boolean checkSubarraySum(int[] nums, int k) {
 
