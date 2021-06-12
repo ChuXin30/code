@@ -68,6 +68,6 @@ public class t523 {
     public static void main(String[] args) {
 
 
-        new t523().checkSubarraySum()
+//        new t523().checkSubarraySum()
     }
 }
