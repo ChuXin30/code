@@ -1,4 +1,4 @@
-package acm;
+package mianshi;
 
 public class huya2 {
 
