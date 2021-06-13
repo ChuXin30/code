@@ -1,4 +1,4 @@
-package mianshi;
+package mianshi.huya;
 
 public class huya1 {
 //    void print_binary_tree(Node root)
