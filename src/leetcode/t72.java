@@ -14,7 +14,7 @@ public class t72 {
             dp[i][0] = i;
         }
         for(int i = 0 ; i <= n2 ; i++ ){
-            dp[0][i] = j;
+//            dp[0][i] = j;
         }
 
         for(int i = 1 ; i <= n1 ; i++ ){
