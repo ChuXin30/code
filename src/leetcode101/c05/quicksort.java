@@ -1,6 +1,7 @@
 package leetcode101.c05;
 
 public class quicksort {
+    //方法一
     public static void quickSort(int[] arr) {
         quickSort(arr, 0, arr.length - 1);
     }
@@ -46,7 +47,7 @@ public class quicksort {
         arr[j] = temp;
     }
 
-
+    //方法二
     void quick_sort(int[] nums , int l , int r){
         if(l + 1 >= r)return;
         int first = l , last = r - 1 , key = nums[first];
