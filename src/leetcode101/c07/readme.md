@@ -55,3 +55,6 @@
       dp[i][j] 表示test1长度为i，text2长度为j的时候 他们的公共子序列的长度
       如果第 t1 的i he t2 的j 相等 dp[i][j] = dp[i-1][j-1] + 1；
       否则dp[i][j] = Math.max(dp[i][j-1] , dp[i-1][j])
+      
+###背包问题
+
