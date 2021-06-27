@@ -1,7 +1,10 @@
 package leetcode101.c07;
+<<<<<<< HEAD
 
 import java.util.Arrays;
 
+=======
+>>>>>>> origin/master
 //188. 买卖股票的最佳时机 IV
 //        给定一个整数数组 prices ，它的第 i 个元素 prices[i] 是一支给定的股票在第 i 天的价格。
 //
@@ -23,6 +26,7 @@ import java.util.Arrays;
 //        解释：在第 2 天 (股票价格 = 2) 的时候买入，在第 3 天 (股票价格 = 6) 的时候卖出, 这笔交易所能获得利润 = 6-2 = 4 。
 //        随后，在第 5 天 (股票价格 = 0) 的时候买入，在第 6 天 (股票价格 = 3) 的时候卖出, 这笔交易所能获得利润 = 3-0 = 3 。
 
+<<<<<<< HEAD
 public class t188 {
     class Solution {
         public int maxProfit(int k, int[] prices) {
@@ -51,5 +55,39 @@ public class t188 {
 
             return Arrays.stream(sell[n - 1]).max().getAsInt();
         }
+=======
+/*
+使用动态规划来做
+使用两个数组一个为buy， buy[i] 标识第i次 买入股票的最大收入
+sell[j] 标识第j次 卖出股票的最大收入。
+ */
+
+import java.util.Arrays;
+
+public class t188 {
+    public int maxProfit(int k, int[] prices) {
+        int days = prices.length;
+        if(days < 2)return 0;
+        if(k > days){
+            return maxprofitUnlimited( prices);
+        }
+        int[] buy = new int[k+1];
+        int[] sell = new int[k+1];
+        Arrays.fill(buy, Integer.MIN_VALUE);
+        for (int i = 0 ; i < days ; i++){
+            for (int j = 1 ; j <= k ; j++){
+                buy[j] = Math.max(buy[j] , sell[j-1] - prices[i]);
+                sell[j] = Math.max(sell[j] , buy[j] + prices[i]);
+            }
+        }
+        return sell[k];
+    }
+    int maxprofitUnlimited(int[] prices){
+        int maxProfit = 0 ;
+        for (int i = 1 ; i < prices.length ; i++){
+            maxProfit += prices[i] - prices[i-1];
+        }
+        return maxProfit;
+>>>>>>> origin/master
     }
 }
