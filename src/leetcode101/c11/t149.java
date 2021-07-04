@@ -28,5 +28,4 @@ public class t149 {
             return b == 0 ? a : gcd(b, a % b);
         }
     }
-
 }
