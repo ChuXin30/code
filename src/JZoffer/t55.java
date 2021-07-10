@@ -12,7 +12,7 @@ public class t55 {
     public boolean isBalanced(TreeNode root) {
         if(root == null)return true;
         if( Math.abs( deepth(root.left , 0) - deepth(root.right , 0) ) <= 1 ){
-            return isBalanced(root.left) && isBalanced(root.right);;
+            return isBalanced(root.left) && isBalanced(root.right);
         }else {
             return  false;
         }
