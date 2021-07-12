@@ -28,7 +28,6 @@ public class t2326 {
     }
 }
 
-
 class Solution_236 {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if(root == null || root == p || root == q) return root;
@@ -37,7 +36,9 @@ class Solution_236 {
         if(left == null && right == null) return null; // 1.
         if(left == null) return right; // 3.
         if(right == null) return left; // 4.
+
         return root; // 2. if(left != null and right != null)
+
     }
 }
 
