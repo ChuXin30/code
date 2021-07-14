@@ -17,5 +17,7 @@ public class shein_1 {
     public static void main(String[] args) {
         System.out.println(changespaceto20("a  b    c"));
 
+
+
     }
 }
