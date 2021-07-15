@@ -1,4 +1,4 @@
-package mianshi;
+package mianshi.shein;
 
 public class test {
     static boolean paddy;
