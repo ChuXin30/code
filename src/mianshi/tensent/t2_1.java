@@ -1,8 +1,8 @@
-package test;
+package mianshi.tensent;
 
 import java.util.ArrayList;
 
-public class t2 {
+public class t2_1 {
 
 
     public static ArrayList<Integer> f(int[] nums){
