@@ -1,4 +1,4 @@
-package test;
+package mianshi.baidu;
 
 public class Node {
     int val;

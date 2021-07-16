@@ -1,6 +1,6 @@
-package test;
+package mianshi.baidu;
 
-public class t1 {
+public class t1_1 {
     static Node f(Node head){
         Node p = null;
         Node q = head;
