@@ -11,14 +11,20 @@ public class t2 {
         for(int i = 0 ; i < n ; i++ ){
 //            int p = nums[i];
 //            System.out.println("i="+i+"p="+p);
+            boolean flag = false;
             while( i != (nums[i]-1) ){
                 System.out.println("i="+i+"  num[i]-1 = "+(nums[i]-1));
                 if(nums[i] == nums[nums[i] - 1]){
                     array.add(nums[i]);
 //                    swap( nums , i , nums[i] -1 );
-                    break;
+                    flag = true;
+//                    break;
                 }
-                swap( nums , i , nums[i] -1 );
+                if(flag){
+
+                }else {
+                    swap( nums , i , nums[i] -1 );
+                }
                 for(int x:nums) System.out.print(x+" ");
                 System.out.println();
             }
