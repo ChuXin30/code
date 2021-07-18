@@ -11,28 +11,25 @@ public class t2_1 {
         for(int i = 0 ; i < n ; i++ ){
 //            int p = nums[i];
 //            System.out.println("i="+i+"p="+p);
-            boolean flag = false;
             while( i != (nums[i]-1) ){
-                System.out.println("i="+i+"  num[i]-1 = "+(nums[i]-1));
                 if(nums[i] == nums[nums[i] - 1]){
+//                    System.out.println("i="+i+"  num[i]-1 = "+(nums[i]-1));
                     array.add(nums[i]);
 //                    swap( nums , i , nums[i] -1 );
-                    flag = true;
-//                    break;
+                    break;
                 }
-                if(flag){
-
-                }else {
-                    swap( nums , i , nums[i] -1 );
-                }
-                for(int x:nums) System.out.print(x+" ");
-                System.out.println();
+                swap( nums , i , nums[i] -1 );
+//                for(int x:nums) System.out.print(x+" ");
+//                System.out.println();
             }
-            for(int x:nums) System.out.print(x+" ");
-            System.out.println();
+//            for(int x:nums) System.out.print(x+" ");
+//            System.out.println();
         }
 //        for (int i = 0 ; i < array.size() ; i++ ) System.out.println(array.indexOf(i));
 
+//        for(int i = 0 ; i < n ; i++ ){
+//            if(i != (nums[i]-1) )array.add(nums[i]);
+//        }
         return array;
     }
 
@@ -49,7 +46,9 @@ public class t2_1 {
         int[] arr = {4,3,2,7,8,2,3,1};
         ArrayList<Integer> array = f(arr);
 
-        for (int i = 0 ; i < array.size() ; i++ ) System.out.println(array.indexOf(i));
+        for (int i = 0 ; i < array.size() ; i++ ){
+            System.out.println(array.get(i));
+        }
 //        System.out.println(f(arr).toString());
 
 
