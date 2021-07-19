@@ -3,7 +3,7 @@
 ##acm
     存放了acm模式的题，主要是牛客网刷的题
 
-##leetcode
+##leetcode101.leetcode
     主要是自己随便在leetcode上面刷的题
 
 ##leetcode101 
