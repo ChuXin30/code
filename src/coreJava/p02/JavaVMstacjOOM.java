@@ -1,4 +1,4 @@
-package p02;
+package coreJava.p02;
 
 public class JavaVMstacjOOM {
     private void dontStop(){

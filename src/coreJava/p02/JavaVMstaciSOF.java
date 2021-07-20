@@ -1,4 +1,4 @@
-package p02;
+package coreJava.p02;
 
 public class JavaVMstaciSOF {
     private int stackLength = 1;
@@ -19,4 +19,4 @@ public class JavaVMstaciSOF {
 }
 //19517
 //        Exception in thread "main" java.lang.StackOverflowError
-//        at JVM.p02.JavaVMstaciSOF.stackLeak(JavaVMstaciSOF.java:7)
+//        at JVM.coreJava.p02.JavaVMstaciSOF.stackLeak(JavaVMstaciSOF.java:7)

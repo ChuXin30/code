@@ -1,6 +1,4 @@
-package p02;
-
-import org.omg.CORBA.MARSHAL;
+package coreJava.p02;
 
 import java.util.HashSet;
 import java.util.Set;

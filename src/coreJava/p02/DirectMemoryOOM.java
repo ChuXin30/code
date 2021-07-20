@@ -1,4 +1,4 @@
-package p02;
+package coreJava.p02;
 
 
 import sun.misc.Unsafe;
@@ -21,4 +21,4 @@ public class DirectMemoryOOM {
 }
 //    Exception in thread "main" java.lang.OutOfMemoryError
 //        at sun.misc.Unsafe.allocateMemory(Native Method)
-//        at JVM.p02.DirectMemoryOOM.main(DirectMemoryOOM.java:16)
+//        at JVM.coreJava.p02.DirectMemoryOOM.main(DirectMemoryOOM.java:16)

@@ -1,4 +1,4 @@
-package p02;
+package coreJava.p02;
 
 import java.util.ArrayList;
 
@@ -14,5 +14,5 @@ public class HeepOOM {
     }
 }
 //    Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
-//        at JVM.p02.HeepOOM$OOMobject.<init>(HeepOOM.java:7)
-//        at JVM.p02.HeepOOM.main(HeepOOM.java:12)
+//        at JVM.coreJava.p02.HeepOOM$OOMobject.<init>(HeepOOM.java:7)
+//        at JVM.coreJava.p02.HeepOOM.main(HeepOOM.java:12)
