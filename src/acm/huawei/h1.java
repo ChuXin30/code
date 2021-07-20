@@ -1,4 +1,4 @@
-package acm;
+package acm.huawei;
 
 public class h1 {
     public static void main(String[] args) {

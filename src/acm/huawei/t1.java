@@ -1,4 +1,4 @@
-package acm;
+package acm.huawei;
 
 import java.util.LinkedList;
 import java.util.Scanner;
