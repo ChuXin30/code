@@ -1,4 +1,4 @@
-package test;
+package mianshi.shopee;
 
 public class t1 {
     public class Solution {

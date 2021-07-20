@@ -1,4 +1,4 @@
-package test;
+package mianshi.shopee;
 
 import java.util.ArrayList;
 import java.util.List;
