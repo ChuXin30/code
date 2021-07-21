@@ -1,5 +1,13 @@
 package mianshi.baidu;
 
+class Node {
+    int val;
+    mianshi.baidu.Node next;
+    public Node(int val){
+        this.val = val;
+    }
+}
+
 public class t1_1 {
     static Node f(Node head){
         Node p = null;
