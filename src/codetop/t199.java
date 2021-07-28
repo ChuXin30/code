@@ -7,7 +7,9 @@ import java.util.List;
 //199. 二叉树的右视图
 //        给定一个二叉树的 根节点 root，想象自己站在它的右侧，按照从顶部到底部的顺序，返回从右侧所能看到的节点值。
 
+
 public class t199 {
+//二叉树层次遍历，每遍历一层 保存这一层的最后一个节点
     public List<Integer> rightSideView(TreeNode root) {
         ArrayList<Integer> ret = new ArrayList<>();
         LinkedList<TreeNode> queue= new LinkedList<>();
