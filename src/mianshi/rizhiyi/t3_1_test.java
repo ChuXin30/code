@@ -11,7 +11,6 @@ public class t3_1_test {
 
         for (int i = 2 ; i <= n ; i++ ){
             dp[1][i] = dp[0][i-2] + dp[0][i-1]  ; // 第i位位1的次数 位第i-2位为0的次数 加 第i-1位为1的次数
-
             dp[0][i] =  dp[1][i-1]; //第i为为0的次数 为第i-1位为1的次数
         }
 //        for (int i = 0 ; i <= n ; i++){
@@ -27,7 +26,7 @@ public class t3_1_test {
     }
 
     public static void main(String[] args) {
-        System.out.println(f(19));// 一共 65
+        System.out.println(f(9));// 一共 65
 //        System.out.println(f(3));
 //        System.out.println(f(4));
 //        System.out.println(f(5));
