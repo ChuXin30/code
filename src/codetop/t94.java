@@ -23,6 +23,8 @@ public class t94 {
         return ret;
     }
 
+
+
     //2.使用栈的方法
     public List<Integer> inorderTraversal2(TreeNode root) {
         ArrayList<Integer> ret2 = new ArrayList<>();
