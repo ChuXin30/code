@@ -13,6 +13,8 @@ public class count1000 implements Runnable {
 //        this.num = num;
 //    }
 
+
+
     public static synchronized void calc(){
         if ( count.get() < 1000 ){
             count.incrementAndGet();
