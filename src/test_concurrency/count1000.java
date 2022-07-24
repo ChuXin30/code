@@ -24,7 +24,6 @@ public class count1000 implements Runnable {
 
 
 
-//tsetttttt
 
     @Override
     public void run() {
