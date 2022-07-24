@@ -22,6 +22,9 @@ public class count1000 implements Runnable {
         }
     }
 
+
+
+
     @Override
     public void run() {
         while (true){
