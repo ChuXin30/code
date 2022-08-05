@@ -51,6 +51,9 @@ public class t122 {
                 ans += Math.max(0, prices[i] - prices[i - 1]);
             }
             return ans;
+
+
+
         }
     }
 
