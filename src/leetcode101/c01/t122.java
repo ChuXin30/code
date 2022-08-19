@@ -52,10 +52,6 @@ public class t122 {
             }
             return ans;
 
-
-
-
-
         }
     }
 

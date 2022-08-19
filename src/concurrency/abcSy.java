@@ -32,9 +32,9 @@ public class abcSy {
     }
 
     public static void main(String[] args) {
-        Thread thread1 = new Thread(new Thread3(0) ,"thread1" );
-        Thread thread2 = new Thread(new Thread3(1) ,"thread2"  );
-        Thread thread3 = new Thread(new Thread3(2) , "thread3" );
+        Thread thread1 = new Thread(new Thread3(0) ,"a" );
+        Thread thread2 = new Thread(new Thread3(1) ,"b"  );
+        Thread thread3 = new Thread(new Thread3(2) , "c" );
 
 
         thread3.start();
