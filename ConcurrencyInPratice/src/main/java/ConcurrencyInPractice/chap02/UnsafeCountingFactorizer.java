@@ -23,7 +23,7 @@ public class UnsafeCountingFactorizer extends GenericServlet implements Servlet 
 		return count;
 	}
 
-	public  void  service(ServletRequest req, ServletResponse resp) {
+	public synchronized void  service(ServletRequest req, ServletResponse resp) {
 		BigInteger i = extractFromRequest(req);
 		BigInteger[] factors = factor(i);
 		++count;
