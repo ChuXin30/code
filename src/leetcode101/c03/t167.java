@@ -1,4 +1,4 @@
-package leetcode101.c03;
+package src.leetcode101.c03;
 
 public class t167 {
 }

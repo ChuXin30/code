@@ -1,4 +1,4 @@
-package leetcode101.c01;
+package src.leetcode101.c01;
 
 //122. 买卖股票的最佳时机 II
 //        给定一个数组 prices ，其中 prices[i] 是一支给定股票第 i 天的价格。
